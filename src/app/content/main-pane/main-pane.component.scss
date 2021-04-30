@@ -1,0 +1,69 @@
+.main-pane{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 30px;
+    .title{
+
+        padding: 20px;
+        padding-left: 50px;
+    }
+    .project{
+        .title{
+            padding-left: 0px;
+            
+            text-align: left;
+        }
+        img{
+            width:100%;
+        }
+        .mobile{
+            width:300px;
+        }
+    }
+    hr{
+        border: 0;
+        background: #e5e5e5;
+        height: 1px;
+        width:100%;
+        margin: 0 0 20px;
+    }
+    p{
+        padding-bottom: 10px;
+    }
+
+}
+    .job-data{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 12px;
+        width:100%;
+        .job-title{
+            
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .job-info{
+            display: flex;
+            flex-direction: row;
+            img{
+                height:30px;
+                border-radius: 50%;
+            }
+            .text{
+                flex:15;
+                padding:3px;
+            }
+            .date{
+                flex:5;
+
+            }
+        }
+    }
